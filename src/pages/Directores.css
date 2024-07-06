@@ -1,0 +1,12 @@
+#directores table i {
+  display: none;
+}
+
+#directores table i:hover {
+  color: var(--color5);
+  cursor: pointer;
+}
+
+#directores table tr:hover i {
+  display: inline;
+}
