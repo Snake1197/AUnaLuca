@@ -1,28 +1,55 @@
 function Noticias() {
-    return (
-        <section className="padded">
-            <div className="container">
-                <h2>Noticias</h2>
-                <div className="row">
-                    <article className="col">
-                        <h3>Subió el dólar</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sint ducimus nulla repellat deserunt ratione, beatae provident eum animi voluptatibus, quae, esse obcaecati quasi corporis nobis ipsam! Facere adipisci necessitatibus vitae. Sequi.</p>
-                        <p>Aperiam eos ratione, eveniet incidunt tempore quibusdam magnam? Debitis, harum! Minima quaerat, molestias blanditiis provident at possimus, assumenda numquam culpa a debitis porro molestiae facilis commodi autem quibusdam vel, sequi perspiciatis ducimus?</p>
-                    </article>
-                    <article className="col">
-                        <h3>Bajó el bitcoin</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat nisi eos est illum dolorem excepturi in reprehenderit ex impedit fuga! Odio laborum nihil ipsa, sint ab laudantium illo dignissimos vel adipisci dolor!</p>
-                        <p>Quae blanditiis eos labore, quidem odio, itaque aliquid esse necessitatibus eligendi assumenda similique? Id numquam cupiditate explicabo enim ea sint laudantium temporibus iste tempore eos dolorem veritatis, itaque quas, eveniet rerum deleniti.</p>
-                    </article>
-                    <article className="col">
-                        <h3>Nuevo yacimiento de litio</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit recusandae ducimus dolorum provident quis sed cumque magnam voluptatem fuga, nemo saepe incidunt! Doloremque quos a tenetur libero dolorum laudantium accusantium minus recusandae.</p>
-                        <p>Alias delectus atque recusandae dolores. Dolorum a rerum nulla in aperiam at iste praesentium saepe sit repellendus voluptatum dolor harum, amet corporis, non voluptatibus sequi officia ipsa quibusdam? Veritatis aperiam quo possimus?</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-    )
+  return (
+    <section className="padded">
+      <div className="container">
+        <h2>Lo que nos caracteriza</h2>
+        <div className="row">
+          <article className="col">
+            <h3>Confianza</h3>
+            <p>
+              Priorizamos la confianza de nuestros clientes con transparencia e
+              integridad. Ofrecemos una experiencia segura y fiable desde la
+              navegación hasta la compra.
+            </p>
+            <p>
+              Nuestro equipo de atención al cliente está siempre disponible para
+              ayudarte. Trabajamos con proveedores de confianza y realizamos
+              rigurosos controles de calidad. Nos comprometemos a ganar tu
+              confianza en cada interacción, garantizando tu satisfacción.
+            </p>
+          </article>
+          <article className="col">
+            <h3>Precios bajos</h3>
+            <p>
+              Ofrecemos precios accesibles sin comprometer la calidad.
+              Negociamos directamente con fabricantes para obtener las mejores
+              ofertas. Ofrecemos promociones y descuentos frecuentes para
+              maximizar tus ahorros. Creemos que todos merecen productos de
+              calidad a precios justos.
+            </p>
+            <p>
+              Nuestra misión es hacer que cada compra sea una inversión
+              inteligente, permitiéndote obtener más por menos.
+            </p>
+          </article>
+          <article className="col">
+            <h3>Calidad</h3>
+            <p>
+              La calidad es fundamental. Ofrecemos productos duraderos y
+              fiables, seleccionados y evaluados rigurosamente. Colaboramos con
+              proveedores reconocidos y hacemos auditorías constantes. Nos
+              comprometemos a proporcionar productos que mejoren tu vida
+              cotidiana.
+            </p>
+            <p>
+              Cada aspecto, desde el material hasta el diseño, es cuidadosamente
+              considerado para asegurar excelencia.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Noticias
+export default Noticias;

@@ -1,13 +1,33 @@
-import './Nosotros.css'
+import "./Nosotros.css";
 function Nosotros() {
-    return (
-        <section id='nosotros' className='padded'>
-            <div className="container">
-                <h2>Nosotros</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ut dolores? Maxime in vero porro fugit quo repellendus accusamus id ullam repellat enim alias, quaerat pariatur, cum vitae sunt? Sit nulla sapiente molestiae atque tempora voluptatibus autem dolore quo omnis maiores minima porro obcaecati, vel, officia quisquam molestias, qui pariatur ducimus possimus similique! Est perspiciatis amet quibusdam magnam voluptatum eos nostrum magni aspernatur aliquid unde quaerat quam quos tenetur, adipisci doloremque eius, cupiditate nobis atque. Labore, sequi magnam natus cum porro eos culpa eligendi illo doloremque ea quisquam in debitis facere. Ipsa a eius ducimus voluptatum laudantium neque accusantium doloribus minima libero veritatis, perferendis consequuntur recusandae nesciunt! Molestiae deleniti dolore corporis eius veniam, possimus dolorum quo facilis rem tempora omnis.</p>
-            </div>
-        </section>
-    )
+  return (
+    <section id="nosotros" className="padded">
+      <div className="container">
+        <h2>Nosotros</h2>
+        <p>
+          En A una Luca, nos dedicamos a ofrecerte una experiencia de compra
+          única, donde la calidad y el ahorro se encuentran. Nuestra tienda
+          nació con la visión de proporcionar productos esenciales y
+          sorprendentes a precios que no dañen tu bolsillo. Creemos firmemente
+          que todos merecen acceder a artículos de buena calidad sin gastar de
+          más, y es por eso que en A una Luca todo cuesta solo una luca.
+        </p>
+        <p>
+          Nuestro compromiso es brindarte una amplia variedad de productos,
+          desde artículos para el hogar y cuidado personal, hasta juguetes y
+          accesorios, todo en un solo lugar. Nos enorgullece ofrecer un servicio
+          amable y cercano, donde cada cliente es importante y su satisfacción
+          es nuestra prioridad.
+        </p>
+        <p>
+          A una Luca no es solo una tienda, es un aliado en tu día a día.
+          Trabajamos constantemente para actualizar nuestro inventario y traerte
+          siempre lo mejor, asegurando que encuentres lo que necesitas a precios
+          que amarás.
+        </p>
+      </div>
+    </section>
+  );
 }
 
-export default Nosotros
+export default Nosotros;

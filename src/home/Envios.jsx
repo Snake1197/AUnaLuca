@@ -9,11 +9,6 @@ function Envios() {
     leerServicio();
   }, []);
 
-  /*
-    function leerServicio(){
-    }
-    */
-
   const leerServicio = () => {
     const rutaServicio = ApiWebURL + "envios.php";
     fetch(rutaServicio)

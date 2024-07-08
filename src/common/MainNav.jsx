@@ -5,7 +5,7 @@ function MainNav() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          ID+
+          Conócenos
         </Link>
         <button
           className="navbar-toggler"
@@ -31,8 +31,13 @@ function MainNav() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/pedidos">
+                Pedidos
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/tienda">
-                Tienda
+                Productos
               </Link>
             </li>
           </ul>

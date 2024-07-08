@@ -1,12 +1,18 @@
+import "./MainHeader.css";
+
 function MainHeader() {
   return (
     <header>
-        <div className="container">
-        <h1>Ideas Digitales</h1>
-        <p>Vine, ví y vencí</p>
+      <div className="container">
+        <div className=" d-flex">
+          <div className="container-logo"></div>
+          <h1>A una Luka</h1>
         </div>
+
+        <span>¡Todo lo que necesites, a una luka!</span>
+      </div>
     </header>
-  )
+  );
 }
 
-export default MainHeader
+export default MainHeader;
