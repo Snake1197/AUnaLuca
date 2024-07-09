@@ -40,6 +40,11 @@ function MainNav() {
                 Productos
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/paises">
+                Países
+              </Link>
+            </li>
           </ul>
           <ul className="navbar-nav">
             <li className="nav-item">

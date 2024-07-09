@@ -12,6 +12,7 @@ import Carrito from "./pages/Carrito";
 import Directores from "./pages/Directores";
 import Pedidos from "./pages/Pedidos";
 import PedidoDetalle from "./pages/PedidoDetalle";
+import Paises from "./pages/Paises";
 
 function App() {
   return (
@@ -34,9 +35,10 @@ function App() {
             <Route path="/directores" element={<Directores />}></Route>
             <Route path="/pedidos" element={<Pedidos />}></Route>
             <Route
-              path="/pedidodetalle/:idproducto"
+              path="/pedidosdetalle/:idpedido"
               element={<PedidoDetalle />}
             />
+            <Route path="/paises" element={<Paises />} />
           </Routes>
         </main>
 
