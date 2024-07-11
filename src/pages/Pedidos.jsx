@@ -25,7 +25,7 @@ function Pedidos() {
   }
   const dibujarTabla = () => {
     return (
-      <table className="table">
+      <table className="table" id="pedidos">
         <thead>
           <tr>
             <th>Id</th>

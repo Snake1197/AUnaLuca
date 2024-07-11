@@ -42,7 +42,7 @@ function Empleados() {
   };
 
   return (
-    <section id="empleados" className="padded">
+    <section id="empleados" className="p-5">
       <div className="container">
         <h2>Empleados</h2>
         {dibujarCuadricula()}
