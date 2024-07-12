@@ -13,6 +13,7 @@ import Directores from "./pages/Directores";
 import Pedidos from "./pages/Pedidos";
 import PedidoDetalle from "./pages/PedidoDetalle";
 import Paises from "./pages/Paises";
+import Seleccionados from "./pages/Seleccionados";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
               element={<PedidoDetalle />}
             />
             <Route path="/paises" element={<Paises />} />
+            <Route path="/seleccionados" element={<Seleccionados />} />
           </Routes>
         </main>
 

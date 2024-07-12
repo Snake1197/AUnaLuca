@@ -54,6 +54,12 @@ function MainNav() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/seleccionados">
+                <i className="bi bi-person-check"></i>
+                <span> Seleccionados</span>
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/empleados">
                 <i className="bi bi-person"></i>
                 <span> Iniciar sesión</span>

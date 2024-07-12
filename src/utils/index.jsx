@@ -22,3 +22,23 @@ export const agregarCarrito = (item, cantidad) => {
     sessionStorage.setItem("carritocompras", JSON.stringify(carrito));
   }
 };
+
+export const agregarSeleccionado = (item) => {
+  if (!sessionStorage.getItem("seleccionados")) {
+    let seleccionados = [];
+    seleccionados.push(item);
+    sessionStorage.setItem("seleccionados", JSON.stringify(seleccionados));
+  } else {
+    let seleccionados = JSON.parse(sessionStorage.getItem("seleccionados"));
+    let seleccionadoExistente = seleccionados.find(
+      (seleccionadoItem) => seleccionadoItem.idproveedor === item.idproveedor
+    );
+
+    if (seleccionadoExistente) {
+      console.log("Ya existe");
+    } else {
+      seleccionadoExistente.push(item);
+    }
+    sessionStorage.setItem("seleccionados", JSON.stringify(seleccionados));
+  }
+};

@@ -7,3 +7,7 @@
   cursor: pointer;
   color: red;
 }
+
+span b:hover {
+  cursor: pointer;
+}
